@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="assets/bootstrap-5.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=check" />
+    <title>Upgrade To Pro</title>
+</head>
+<body>
+    
+    <!-- Naiv -->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://bit.ly/m/MazenTURK" style="font-family: Turk;"><img width="30px" src="assets/img/MT.png" alt="Turk"> Turk</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Account
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                  <li><a class="dropdown-item" href="subscribe.html">Upgrade</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="bye.html" style="color: red;">Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+     <main class="container">
+        <div>
+            <div>
+                <h1 class="text-center" style="text-shadow: 0 0 10px #000;">Pricing</h1>
+                <p class="text-center" style="text-shadow: 0 0 10px #000;">Quickly build an effective pricing table for your potential customers with
+                    this Bootstrap example. It’s built with default Bootstrap components and
+                    utilities with little customization.</p>
+                <div class="cardss">
+                    
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Free</h3>
+                    </div>
+                    <div class="card-body">
+                        <h1>$0/mo</h1>
+                        <p class="card-text" style="color: black;">10 users included
+                            <br>2 GB of storage
+                            <br>Email support
+                            <br>Help center access</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#upgradeModal" style="background-color: transparent;color: #0d6efd;">Sign up for free</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Pro</h3>
+                    </div>
+                    <div class="card-body">
+                        <h1>$15/mo</h1>
+                        <p class="card-text" style="color: black;">20 users included
+                            <br>10 GB of storage
+                            <br>Priority Email support
+                            <br>Help center access</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#upgradeModal">Get started</button>
+                    </div>
+                </div>
+                <div id="lol" class="card" style="border-color: #0d6efd;">
+                    <div class="card-header" style="background-color: #0d6efd;color: white;">
+                        <h3 class="card-title">Enterprise</h3>
+                    </div>
+                    <div class="card-body">
+                        <h1 style="text-shadow: 0 0 10px #000;">$29/mo</h1>
+                        <p class="card-text" style="color: rgb(255, 255, 255);text-shadow: 0 0 10px #000;">30 users included
+                            <br>15 GB of storage
+                            <br>Phone and Email support
+                            <br>Help center access</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#upgradeModal">Contact us</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="compare">
+                <h2 class="text-center" style="text-shadow: 0 0 10px #000 ;">Compare Plans</h2>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Free</th>
+                            <th scope="col">Pro</th>
+                            <th scope="col">Enterprise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">Public</th>
+                            <td>
+                                <span class="material-symbols-outlined" style="color: white;">check</span>
+                            </td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Private</th>
+                            <td></td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Permissions</th>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Sharing</th>
+                            <td></td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Unlimited members</th>
+                            <td></td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Extra security</th>
+                            <td></td>
+                            <td></td>
+                            <td><span class="material-symbols-outlined" style="color: white;">check</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                    <th scope="col"><a class="navbar-brand" href="https://bit.ly/m/MazenTURK"><img width="25px" src="assets/img/MT.png" alt="Turk"></a></th>
+                    <th scope="col">Features</th>
+                    <th scope="col">Resources</th>
+                    <th scope="col">About</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">&copy; 2017–2024</th>
+                    <td>Cool stuff</td>
+                    <td>Resource</td>
+                    <td>Team</td>
+                    </tr>
+                    <tr>
+                    <th scope="row"></th>
+                    <td>Random feature</td>
+                    <td>Resource name</td>
+                    <td>Locations</td>
+                    <tr>
+                    <th scope="row"></th>
+                    <td>Team feature</td>
+                    <td>Another resource</td>
+                    <td>Privacy</td>
+                    <tr>
+                    <th scope="row"></th>
+                    <td>Stuff for developers</td>
+                    <td>Final resource</td>
+                    <td>Terms</td>
+                    <tr>
+                    <th scope="row"></th>
+                    <td>Another one</td>
+                    <td></td>
+                    <td></td>
+                    <tr>
+                    <th scope="row"></th>
+                    <td>Last time</td><td></td>
+                    <td></td>
+                    <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </footer>
+
+
+
+
+
+
+    <!-- Script -->
+    <script src="assets/bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+      const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</body>
+</html>
