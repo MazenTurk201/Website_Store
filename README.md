@@ -1,1 +1,1 @@
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://github.com/MazenTurk201/Website_Store/raw/refs/heads/main/Final%20Project.mp4)
+[![Watch the video](https://www.clipartmax.com/png/full/273-2732710_total-video-downloader-video-download-logo-png.png)](https://github.com/MazenTurk201/Website_Store/raw/refs/heads/main/Final%20Project.mp4)
